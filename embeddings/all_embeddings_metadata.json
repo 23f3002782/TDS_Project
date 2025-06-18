@@ -1,0 +1,1851 @@
+{
+  "total_files": 183,
+  "total_chunks": 3272,
+  "successful_embeddings": 3272,
+  "failed_embeddings": 0,
+  "chunk_size": 800,
+  "overlap_percentage": 0.25,
+  "embedding_model": "nomic-embed-text:latest",
+  "embedding_dimension": 768,
+  "file_paths": [
+    "processed_documents/tds_course/visualizing-animated-data-with-powerpoint.md",
+    "processed_documents/tds_course/geospatial-analysis-with-python.md",
+    "processed_documents/tds_course/google-charts.md",
+    "processed_documents/tds_course/narratives-with-excel.md",
+    "processed_documents/tds_course/deployment-tools.md",
+    "processed_documents/tds_course/hosting-llms-runpod.md",
+    "processed_documents/tds_course/data-analysis-with-sql.md",
+    "processed_documents/tds_course/data-analysis.md",
+    "processed_documents/tds_course/llm-website-scraping.md",
+    "processed_documents/tds_course/splitting-text-in-excel.md",
+    "processed_documents/tds_course/github-actions.md",
+    "processed_documents/tds_course/live-session-2025-01-28.md",
+    "processed_documents/tds_course/npx.md",
+    "processed_documents/tds_course/rawgraphs.md",
+    "processed_documents/tds_course/network-analysis-in-python.md",
+    "processed_documents/tds_course/llm-text-extraction.md",
+    "processed_documents/tds_course/bash.md",
+    "processed_documents/tds_course/git.md",
+    "processed_documents/tds_course/_sidebar.md",
+    "processed_documents/tds_course/scraping-with-excel.md",
+    "processed_documents/tds_course/css-selectors.md",
+    "processed_documents/tds_course/tds-gpt-reviewer.md",
+    "processed_documents/tds_course/bbc-weather-api-with-python.md",
+    "processed_documents/tds_course/live-session-2025-02-06.md",
+    "processed_documents/tds_course/topic-modeling.md",
+    "processed_documents/tds_course/data-cleansing-in-excel.md",
+    "processed_documents/tds_course/data-preparation-in-the-editor.md",
+    "processed_documents/tds_course/base64-encoding.md",
+    "processed_documents/tds_course/data-analysis-with-duckdb.md",
+    "processed_documents/tds_course/extracting-audio-and-transcripts.md",
+    "processed_documents/tds_course/convert-pdfs-to-markdown.md",
+    "processed_documents/tds_course/live-session-2025-02-07.md",
+    "processed_documents/tds_course/data-aggregation-in-excel.md",
+    "processed_documents/tds_course/fine-tuning-gemini.md",
+    "processed_documents/tds_course/live-session-2025-01-16.md",
+    "processed_documents/tds_course/data-transformation-in-excel.md",
+    "processed_documents/tds_course/live-session-2025-02-01.md",
+    "processed_documents/tds_course/geospatial-analysis-with-excel.md",
+    "processed_documents/tds_course/README.md",
+    "processed_documents/tds_course/outlier-detection-with-excel.md",
+    "processed_documents/tds_course/live-session-2025-01-17.md",
+    "processed_documents/tds_course/visualizing-machine-learning.md",
+    "processed_documents/tds_course/vision-models.md",
+    "processed_documents/tds_course/narratives-with-llms.md",
+    "processed_documents/tds_course/github-pages.md",
+    "processed_documents/tds_course/live-session-2025-01-29.md",
+    "processed_documents/tds_course/llamafile.md",
+    "processed_documents/tds_course/vscode.md",
+    "processed_documents/tds_course/google-data-studio.md",
+    "processed_documents/tds_course/live-session-2025-01-20.md",
+    "processed_documents/tds_course/data-visualization.md",
+    "processed_documents/tds_course/project-2.md",
+    "processed_documents/tds_course/scraping-emarketer.md",
+    "processed_documents/tds_course/data-analysis-with-python.md",
+    "processed_documents/tds_course/regression-with-excel.md",
+    "processed_documents/tds_course/vercel.md",
+    "processed_documents/tds_course/scraping-live-sessions.md",
+    "processed_documents/tds_course/sqlite.md",
+    "processed_documents/tds_course/scheduled-scraping-with-github-actions.md",
+    "processed_documents/tds_course/live-session-2025-01-31.md",
+    "processed_documents/tds_course/llm-sentiment-analysis.md",
+    "processed_documents/tds_course/devtools.md",
+    "processed_documents/tds_course/prompt-engineering.md",
+    "processed_documents/tds_course/data-preparation-in-the-shell.md",
+    "processed_documents/tds_course/narratives-with-comics.md",
+    "processed_documents/tds_course/llm-agents.md",
+    "processed_documents/tds_course/live-session-2025-01-15.md",
+    "processed_documents/tds_course/markdown.md",
+    "processed_documents/tds_course/profiling-data-with-python.md",
+    "processed_documents/tds_course/image-compression.md",
+    "processed_documents/tds_course/cors.md",
+    "processed_documents/tds_course/embeddings.md",
+    "processed_documents/tds_course/fastapi.md",
+    "processed_documents/tds_course/large-language-models.md",
+    "processed_documents/tds_course/vector-databases.md",
+    "processed_documents/tds_course/colab.md",
+    "processed_documents/tds_course/wikipedia-data-with-python.md",
+    "processed_documents/tds_course/visualizing-charts-with-excel.md",
+    "processed_documents/tds_course/visualizing-forecasts-with-excel.md",
+    "processed_documents/tds_course/llm-video-screen-scraping.md",
+    "processed_documents/tds_course/project-1.md",
+    "processed_documents/tds_course/development-tools.md",
+    "processed_documents/tds_course/data-preparation.md",
+    "processed_documents/tds_course/scraping-with-google-sheets.md",
+    "processed_documents/tds_course/live-session-2025-01-23.md",
+    "processed_documents/tds_course/marimo.md",
+    "processed_documents/discourse/tds-kb-163247.md",
+    "processed_documents/discourse/tds-kb-168011.md",
+    "processed_documents/discourse/tds-kb-168943.md",
+    "processed_documents/discourse/tds-kb-173025.md",
+    "processed_documents/discourse/tds-kb-173206.md",
+    "processed_documents/discourse/tds-kb-161214.md",
+    "processed_documents/discourse/tds-kb-165746.md",
+    "processed_documents/discourse/tds-kb-171477.md",
+    "processed_documents/discourse/tds-kb-166816.md",
+    "processed_documents/discourse/tds-kb-173155.md",
+    "processed_documents/discourse/tds-kb-173175.md",
+    "processed_documents/discourse/tds-kb-168142.md",
+    "processed_documents/discourse/tds-kb-164291.md",
+    "processed_documents/discourse/tds-kb-168017.md",
+    "processed_documents/discourse/tds-kb-171422.md",
+    "processed_documents/discourse/tds-kb-164460.md",
+    "processed_documents/discourse/tds-kb-172246.md",
+    "processed_documents/discourse/tds-kb-167172.md",
+    "processed_documents/discourse/tds-kb-173247.md",
+    "processed_documents/discourse/tds-kb-172707.md",
+    "processed_documents/discourse/tds-kb-164205.md",
+    "processed_documents/discourse/tds-kb-165396.md",
+    "processed_documents/discourse/tds-kb-163158.md",
+    "processed_documents/discourse/tds-kb-170131.md",
+    "processed_documents/discourse/tds-kb-168987.md",
+    "processed_documents/discourse/tds-kb-172333.md",
+    "processed_documents/discourse/tds-kb-168449.md",
+    "processed_documents/discourse/tds-kb-169456.md",
+    "processed_documents/discourse/tds-kb-167344.md",
+    "processed_documents/discourse/tds-kb-166498.md",
+    "processed_documents/discourse/tds-kb-164277.md",
+    "processed_documents/discourse/tds-kb-172546.md",
+    "processed_documents/discourse/tds-kb-168384.md",
+    "processed_documents/discourse/tds-kb-168310.md",
+    "processed_documents/discourse/tds-kb-161071.md",
+    "processed_documents/discourse/tds-kb-173028.md",
+    "processed_documents/discourse/tds-kb-165433.md",
+    "processed_documents/discourse/tds-kb-171672.md",
+    "processed_documents/discourse/tds-kb-171473.md",
+    "processed_documents/discourse/tds-kb-168916.md",
+    "processed_documents/discourse/tds-kb-168482.md",
+    "processed_documents/discourse/tds-kb-171668.md",
+    "processed_documents/discourse/tds-kb-172757.md",
+    "processed_documents/discourse/tds-kb-172916.md",
+    "processed_documents/discourse/tds-kb-171054.md",
+    "processed_documents/discourse/tds-kb-167410.md",
+    "processed_documents/discourse/tds-kb-172373.md",
+    "processed_documents/discourse/tds-kb-165922.md",
+    "processed_documents/discourse/tds-kb-165416.md",
+    "processed_documents/discourse/tds-kb-171141.md",
+    "processed_documents/discourse/tds-kb-173207.md",
+    "processed_documents/discourse/tds-kb-166576.md",
+    "processed_documents/discourse/tds-kb-168537.md",
+    "processed_documents/discourse/tds-kb-162425.md",
+    "processed_documents/discourse/tds-kb-172254.md",
+    "processed_documents/discourse/tds-kb-168901.md",
+    "processed_documents/discourse/tds-kb-171500.md",
+    "processed_documents/discourse/tds-kb-163224.md",
+    "processed_documents/discourse/tds-kb-166634.md",
+    "processed_documents/discourse/tds-kb-169352.md",
+    "processed_documents/discourse/tds-kb-168057.md",
+    "processed_documents/discourse/tds-kb-166647.md",
+    "processed_documents/discourse/tds-kb-168506.md",
+    "processed_documents/discourse/tds-kb-172497.md",
+    "processed_documents/discourse/tds-kb-167471.md",
+    "processed_documents/discourse/tds-kb-168515.md",
+    "processed_documents/discourse/tds-kb-164869.md",
+    "processed_documents/discourse/tds-kb-166738.md",
+    "processed_documents/discourse/tds-kb-164147.md",
+    "processed_documents/discourse/tds-kb-163765.md",
+    "processed_documents/discourse/tds-kb-167699.md",
+    "processed_documents/discourse/tds-kb-173124.md",
+    "processed_documents/discourse/tds-kb-169045.md",
+    "processed_documents/discourse/tds-kb-168832.md",
+    "processed_documents/discourse/tds-kb-164089.md",
+    "processed_documents/discourse/tds-kb-161083.md",
+    "processed_documents/discourse/tds-kb-165687.md",
+    "processed_documents/discourse/tds-kb-170413.md",
+    "processed_documents/discourse/tds-kb-173347.md",
+    "processed_documents/discourse/tds-kb-166866.md",
+    "processed_documents/discourse/tds-kb-172865.md",
+    "processed_documents/discourse/tds-kb-171428.md",
+    "processed_documents/discourse/tds-kb-169807.md",
+    "processed_documents/discourse/tds-kb-171999.md",
+    "processed_documents/discourse/tds-kb-165959.md",
+    "processed_documents/discourse/tds-kb-171798.md",
+    "processed_documents/discourse/tds-kb-168476.md",
+    "processed_documents/discourse/tds-kb-164462.md",
+    "processed_documents/discourse/tds-kb-170147.md",
+    "processed_documents/discourse/tds-kb-166303.md",
+    "processed_documents/discourse/tds-kb-164214.md",
+    "processed_documents/discourse/tds-kb-168143.md",
+    "processed_documents/discourse/tds-kb-171515.md",
+    "processed_documents/discourse/tds-kb-166189.md",
+    "processed_documents/discourse/tds-kb-173211.md",
+    "processed_documents/discourse/tds-kb-166891.md",
+    "processed_documents/discourse/tds-kb-165830.md"
+  ],
+  "generation_timestamp": 1750229310.126073,
+  "processing_stats": {
+    "processed_documents/tds_course/visualizing-animated-data-with-powerpoint.md": {
+      "original_length": 1567,
+      "processed_length": 1497,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 523.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/geospatial-analysis-with-python.md": {
+      "original_length": 4745,
+      "processed_length": 4597,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 638.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/google-charts.md": {
+      "original_length": 227,
+      "processed_length": 226,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 213.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/narratives-with-excel.md": {
+      "original_length": 3137,
+      "processed_length": 3052,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 768.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/deployment-tools.md": {
+      "original_length": 163,
+      "processed_length": 162,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 162.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/hosting-llms-runpod.md": {
+      "original_length": 121,
+      "processed_length": 120,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 120.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-analysis-with-sql.md": {
+      "original_length": 3878,
+      "processed_length": 3807,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 799.1666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-analysis.md": {
+      "original_length": 3349,
+      "processed_length": 3220,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 630.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-website-scraping.md": {
+      "original_length": 24,
+      "processed_length": 23,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/splitting-text-in-excel.md": {
+      "original_length": 3059,
+      "processed_length": 2913,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 650.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/github-actions.md": {
+      "original_length": 5034,
+      "processed_length": 4760,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 654.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-28.md": {
+      "original_length": 13821,
+      "processed_length": 13791,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 764.2916666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/npx.md": {
+      "original_length": 2650,
+      "processed_length": 2524,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 586.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/tds_course/rawgraphs.md": {
+      "original_length": 3022,
+      "processed_length": 2967,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 660.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/network-analysis-in-python.md": {
+      "original_length": 5487,
+      "processed_length": 5325,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 767.7777777777778,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-text-extraction.md": {
+      "original_length": 8513,
+      "processed_length": 8104,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 725.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/bash.md": {
+      "original_length": 4278,
+      "processed_length": 3924,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 664.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 12
+    },
+    "processed_documents/tds_course/git.md": {
+      "original_length": 5886,
+      "processed_length": 5594,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 688.7272727272727,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/_sidebar.md": {
+      "original_length": 5703,
+      "processed_length": 5558,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 735.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 0
+    },
+    "processed_documents/tds_course/scraping-with-excel.md": {
+      "original_length": 2664,
+      "processed_length": 2621,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 683.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/css-selectors.md": {
+      "original_length": 3337,
+      "processed_length": 3302,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 641.7142857142857,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/tds-gpt-reviewer.md": {
+      "original_length": 2836,
+      "processed_length": 2809,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 633.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/bbc-weather-api-with-python.md": {
+      "original_length": 9088,
+      "processed_length": 8960,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 745.75,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/live-session-2025-02-06.md": {
+      "original_length": 5060,
+      "processed_length": 4957,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 727.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/topic-modeling.md": {
+      "original_length": 6117,
+      "processed_length": 6031,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 781.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-cleansing-in-excel.md": {
+      "original_length": 4104,
+      "processed_length": 3750,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 642.125,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-preparation-in-the-editor.md": {
+      "original_length": 2928,
+      "processed_length": 2822,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 635.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/base64-encoding.md": {
+      "original_length": 4038,
+      "processed_length": 4001,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 741.5714285714286,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/data-analysis-with-duckdb.md": {
+      "original_length": 5940,
+      "processed_length": 5821,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 709.4545454545455,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/extracting-audio-and-transcripts.md": {
+      "original_length": 10761,
+      "processed_length": 10130,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 720.578947368421,
+      "overlap_percentage": 0.25,
+      "sections_found": 33
+    },
+    "processed_documents/tds_course/convert-pdfs-to-markdown.md": {
+      "original_length": 537,
+      "processed_length": 536,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 368.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-02-07.md": {
+      "original_length": 6348,
+      "processed_length": 6298,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 706.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-aggregation-in-excel.md": {
+      "original_length": 4190,
+      "processed_length": 3840,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 718.5714285714286,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/fine-tuning-gemini.md": {
+      "original_length": 123,
+      "processed_length": 122,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 122.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-16.md": {
+      "original_length": 10800,
+      "processed_length": 10701,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 723.25,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-transformation-in-excel.md": {
+      "original_length": 3722,
+      "processed_length": 3494,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 669.1428571428571,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-02-01.md": {
+      "original_length": 6711,
+      "processed_length": 6673,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 695.9230769230769,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/geospatial-analysis-with-excel.md": {
+      "original_length": 4030,
+      "processed_length": 4007,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 674.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/README.md": {
+      "original_length": 18661,
+      "processed_length": 17183,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 764.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 9
+    },
+    "processed_documents/tds_course/outlier-detection-with-excel.md": {
+      "original_length": 3410,
+      "processed_length": 3347,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 2,
+      "avg_chunk_size": 816.8,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-17.md": {
+      "original_length": 7205,
+      "processed_length": 7158,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 733.4615384615385,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/visualizing-machine-learning.md": {
+      "original_length": 3117,
+      "processed_length": 3057,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 675.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vision-models.md": {
+      "original_length": 6289,
+      "processed_length": 6031,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 684.1666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/tds_course/narratives-with-llms.md": {
+      "original_length": 31,
+      "processed_length": 30,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/github-pages.md": {
+      "original_length": 6965,
+      "processed_length": 6716,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 699.5384615384615,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/live-session-2025-01-29.md": {
+      "original_length": 16157,
+      "processed_length": 16119,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 787.7777777777778,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llamafile.md": {
+      "original_length": 5437,
+      "processed_length": 5322,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 710.6,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vscode.md": {
+      "original_length": 2145,
+      "processed_length": 2144,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 587.8,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/google-data-studio.md": {
+      "original_length": 120,
+      "processed_length": 119,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 119.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-20.md": {
+      "original_length": 11601,
+      "processed_length": 11548,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 765.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-visualization.md": {
+      "original_length": 1765,
+      "processed_length": 1575,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 542.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/project-2.md": {
+      "original_length": 3132,
+      "processed_length": 3125,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 616.5714285714286,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/scraping-emarketer.md": {
+      "original_length": 3232,
+      "processed_length": 3146,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 619.4285714285714,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-analysis-with-python.md": {
+      "original_length": 4510,
+      "processed_length": 4441,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 669.7777777777778,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/regression-with-excel.md": {
+      "original_length": 4833,
+      "processed_length": 4621,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 751.125,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vercel.md": {
+      "original_length": 7810,
+      "processed_length": 7181,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 735.0769230769231,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/tds_course/scraping-live-sessions.md": {
+      "original_length": 11884,
+      "processed_length": 11590,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 740.7142857142857,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/sqlite.md": {
+      "original_length": 6031,
+      "processed_length": 5775,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 705.2727272727273,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/scheduled-scraping-with-github-actions.md": {
+      "original_length": 6029,
+      "processed_length": 5673,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 695.8181818181819,
+      "overlap_percentage": 0.25,
+      "sections_found": 6
+    },
+    "processed_documents/tds_course/live-session-2025-01-31.md": {
+      "original_length": 7488,
+      "processed_length": 7419,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 753.3076923076923,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-sentiment-analysis.md": {
+      "original_length": 9092,
+      "processed_length": 8916,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 743.125,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/devtools.md": {
+      "original_length": 2210,
+      "processed_length": 2163,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 591.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/prompt-engineering.md": {
+      "original_length": 14206,
+      "processed_length": 14041,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 774.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 13
+    },
+    "processed_documents/tds_course/data-preparation-in-the-shell.md": {
+      "original_length": 3114,
+      "processed_length": 3044,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 672.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/narratives-with-comics.md": {
+      "original_length": 2659,
+      "processed_length": 2532,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 781.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-agents.md": {
+      "original_length": 109,
+      "processed_length": 108,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 108.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-15.md": {
+      "original_length": 7353,
+      "processed_length": 7253,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 740.8461538461538,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/markdown.md": {
+      "original_length": 2639,
+      "processed_length": 2548,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 668.2,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/tds_course/profiling-data-with-python.md": {
+      "original_length": 4326,
+      "processed_length": 4173,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 765.8571428571429,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/image-compression.md": {
+      "original_length": 4096,
+      "processed_length": 4013,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 743.2857142857143,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/cors.md": {
+      "original_length": 4315,
+      "processed_length": 4252,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 704.875,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/embeddings.md": {
+      "original_length": 5872,
+      "processed_length": 5649,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 693.7272727272727,
+      "overlap_percentage": 0.25,
+      "sections_found": 11
+    },
+    "processed_documents/tds_course/fastapi.md": {
+      "original_length": 2995,
+      "processed_length": 2859,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 641.8333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 8
+    },
+    "processed_documents/tds_course/large-language-models.md": {
+      "original_length": 631,
+      "processed_length": 630,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 415.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vector-databases.md": {
+      "original_length": 9557,
+      "processed_length": 9061,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 719.5882352941177,
+      "overlap_percentage": 0.25,
+      "sections_found": 26
+    },
+    "processed_documents/tds_course/colab.md": {
+      "original_length": 2689,
+      "processed_length": 2669,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 692.6,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/wikipedia-data-with-python.md": {
+      "original_length": 3230,
+      "processed_length": 3203,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 699.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/visualizing-charts-with-excel.md": {
+      "original_length": 1704,
+      "processed_length": 1664,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 565.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/visualizing-forecasts-with-excel.md": {
+      "original_length": 2259,
+      "processed_length": 2176,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 693.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-video-screen-scraping.md": {
+      "original_length": 6207,
+      "processed_length": 6075,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 732.3636363636364,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/project-1.md": {
+      "original_length": 10510,
+      "processed_length": 10491,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 740.1578947368421,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/development-tools.md": {
+      "original_length": 587,
+      "processed_length": 586,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 393.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-preparation.md": {
+      "original_length": 3512,
+      "processed_length": 3447,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 662.7142857142857,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/scraping-with-google-sheets.md": {
+      "original_length": 4183,
+      "processed_length": 4018,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 676.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-23.md": {
+      "original_length": 5603,
+      "processed_length": 5510,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 681.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/marimo.md": {
+      "original_length": 3909,
+      "processed_length": 3824,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 651.375,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-163247.md": {
+      "original_length": 225987,
+      "processed_length": 91627,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 25,
+      "avg_chunk_size": 790.5658914728682,
+      "overlap_percentage": 0.25,
+      "sections_found": 75
+    },
+    "processed_documents/discourse/tds-kb-168011.md": {
+      "original_length": 19691,
+      "processed_length": 18695,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 777.0625,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-168943.md": {
+      "original_length": 2281,
+      "processed_length": 948,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 448.3333333333333,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-173025.md": {
+      "original_length": 6276,
+      "processed_length": 1858,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 530.6,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-173206.md": {
+      "original_length": 16030,
+      "processed_length": 14427,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 767.32,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-161214.md": {
+      "original_length": 1983,
+      "processed_length": 1282,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 560.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-165746.md": {
+      "original_length": 383,
+      "processed_length": 103,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 103.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-171477.md": {
+      "original_length": 40369,
+      "processed_length": 21102,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 778.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 6
+    },
+    "processed_documents/discourse/tds-kb-166816.md": {
+      "original_length": 88217,
+      "processed_length": 49345,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 797.2682926829268,
+      "overlap_percentage": 0.25,
+      "sections_found": 36
+    },
+    "processed_documents/discourse/tds-kb-173155.md": {
+      "original_length": 642,
+      "processed_length": 283,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 241.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-173175.md": {
+      "original_length": 1522,
+      "processed_length": 369,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 284.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-168142.md": {
+      "original_length": 3500,
+      "processed_length": 1246,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 548.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-164291.md": {
+      "original_length": 594,
+      "processed_length": 327,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 263.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-168017.md": {
+      "original_length": 2952,
+      "processed_length": 2346,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 628.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-171422.md": {
+      "original_length": 859,
+      "processed_length": 381,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 290.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-164460.md": {
+      "original_length": 418,
+      "processed_length": 226,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 213.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-172246.md": {
+      "original_length": 50636,
+      "processed_length": 26590,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 798.0681818181819,
+      "overlap_percentage": 0.25,
+      "sections_found": 26
+    },
+    "processed_documents/discourse/tds-kb-167172.md": {
+      "original_length": 24770,
+      "processed_length": 8015,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 756.7857142857143,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/discourse/tds-kb-173247.md": {
+      "original_length": 12573,
+      "processed_length": 10782,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 755.4736842105264,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-172707.md": {
+      "original_length": 30164,
+      "processed_length": 15850,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 777.8888888888889,
+      "overlap_percentage": 0.25,
+      "sections_found": 8
+    },
+    "processed_documents/discourse/tds-kb-164205.md": {
+      "original_length": 1102,
+      "processed_length": 964,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 454.3333333333333,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-165396.md": {
+      "original_length": 32469,
+      "processed_length": 23987,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 778.2439024390244,
+      "overlap_percentage": 0.25,
+      "sections_found": 12
+    },
+    "processed_documents/discourse/tds-kb-163158.md": {
+      "original_length": 31132,
+      "processed_length": 22936,
+      "removed_duplicates": 12,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 775.4444444444445,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-170131.md": {
+      "original_length": 4318,
+      "processed_length": 3637,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 689.4285714285714,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-168987.md": {
+      "original_length": 794,
+      "processed_length": 579,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 389.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-172333.md": {
+      "original_length": 25642,
+      "processed_length": 20133,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 784.9411764705883,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/discourse/tds-kb-168449.md": {
+      "original_length": 44842,
+      "processed_length": 14134,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 778.7916666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 40
+    },
+    "processed_documents/discourse/tds-kb-169456.md": {
+      "original_length": 451,
+      "processed_length": 228,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 214.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-167344.md": {
+      "original_length": 4061,
+      "processed_length": 2460,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 575.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/discourse/tds-kb-166498.md": {
+      "original_length": 4013,
+      "processed_length": 3626,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 688.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-164277.md": {
+      "original_length": 535731,
+      "processed_length": 301107,
+      "removed_duplicates": 48,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 798.2693156732892,
+      "overlap_percentage": 0.25,
+      "sections_found": 307
+    },
+    "processed_documents/discourse/tds-kb-172546.md": {
+      "original_length": 11790,
+      "processed_length": 10952,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 710.047619047619,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-168384.md": {
+      "original_length": 5194,
+      "processed_length": 3423,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 658.8571428571429,
+      "overlap_percentage": 0.25,
+      "sections_found": 6
+    },
+    "processed_documents/discourse/tds-kb-168310.md": {
+      "original_length": 1061,
+      "processed_length": 843,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 413.6666666666667,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-161071.md": {
+      "original_length": 951,
+      "processed_length": 487,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 342.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-173028.md": {
+      "original_length": 410,
+      "processed_length": 184,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 184.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-165433.md": {
+      "original_length": 1914,
+      "processed_length": 1337,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 578.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-171672.md": {
+      "original_length": 9563,
+      "processed_length": 6064,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 731.4545454545455,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-171473.md": {
+      "original_length": 784,
+      "processed_length": 614,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 406.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-168916.md": {
+      "original_length": 20780,
+      "processed_length": 11502,
+      "removed_duplicates": 3,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 732.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 12
+    },
+    "processed_documents/discourse/tds-kb-168482.md": {
+      "original_length": 907,
+      "processed_length": 166,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 166.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-171668.md": {
+      "original_length": 3145,
+      "processed_length": 1560,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 539.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/discourse/tds-kb-172757.md": {
+      "original_length": 619,
+      "processed_length": 390,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 295.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-172916.md": {
+      "original_length": 10371,
+      "processed_length": 9355,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 736.8235294117648,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-171054.md": {
+      "original_length": 2576,
+      "processed_length": 1467,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 515.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-167410.md": {
+      "original_length": 720,
+      "processed_length": 352,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 276.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-172373.md": {
+      "original_length": 2823,
+      "processed_length": 2491,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 580.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-165922.md": {
+      "original_length": 5907,
+      "processed_length": 2711,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 617.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-165416.md": {
+      "original_length": 642,
+      "processed_length": 136,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 136.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-171141.md": {
+      "original_length": 715103,
+      "processed_length": 374656,
+      "removed_duplicates": 22,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 793.6386138613861,
+      "overlap_percentage": 0.25,
+      "sections_found": 234
+    },
+    "processed_documents/discourse/tds-kb-173207.md": {
+      "original_length": 27738,
+      "processed_length": 17438,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 772.6333333333333,
+      "overlap_percentage": 0.25,
+      "sections_found": 6
+    },
+    "processed_documents/discourse/tds-kb-166576.md": {
+      "original_length": 69228,
+      "processed_length": 34250,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 775.271186440678,
+      "overlap_percentage": 0.25,
+      "sections_found": 52
+    },
+    "processed_documents/discourse/tds-kb-168537.md": {
+      "original_length": 1194,
+      "processed_length": 424,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 312.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-162425.md": {
+      "original_length": 3684,
+      "processed_length": 139,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 139.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-172254.md": {
+      "original_length": 3987,
+      "processed_length": 1554,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 537.25,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-168901.md": {
+      "original_length": 6964,
+      "processed_length": 2770,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 626.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-171500.md": {
+      "original_length": 4457,
+      "processed_length": 793,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 496.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/discourse/tds-kb-163224.md": {
+      "original_length": 501,
+      "processed_length": 172,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 172.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-166634.md": {
+      "original_length": 7214,
+      "processed_length": 3589,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 763.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-169352.md": {
+      "original_length": 3623,
+      "processed_length": 3213,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 629.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-168057.md": {
+      "original_length": 2804,
+      "processed_length": 2454,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 650.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-166647.md": {
+      "original_length": 731,
+      "processed_length": 163,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 163.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-168506.md": {
+      "original_length": 1144,
+      "processed_length": 794,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 497.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-172497.md": {
+      "original_length": 755,
+      "processed_length": 200,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 200.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-167471.md": {
+      "original_length": 17799,
+      "processed_length": 15442,
+      "removed_duplicates": 6,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 768.65,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/discourse/tds-kb-168515.md": {
+      "original_length": 936,
+      "processed_length": 563,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 381.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-164869.md": {
+      "original_length": 1567,
+      "processed_length": 849,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 415.6666666666667,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-166738.md": {
+      "original_length": 390,
+      "processed_length": 241,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 220.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-164147.md": {
+      "original_length": 1535,
+      "processed_length": 1212,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 537.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-163765.md": {
+      "original_length": 4163,
+      "processed_length": 3139,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 688.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-167699.md": {
+      "original_length": 1673,
+      "processed_length": 1462,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 620.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-173124.md": {
+      "original_length": 1776,
+      "processed_length": 1473,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 517.75,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-169045.md": {
+      "original_length": 3152,
+      "processed_length": 2171,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 592.6,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-168832.md": {
+      "original_length": 83250,
+      "processed_length": 37438,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 771.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 57
+    },
+    "processed_documents/discourse/tds-kb-164089.md": {
+      "original_length": 669,
+      "processed_length": 354,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 277.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-161083.md": {
+      "original_length": 155371,
+      "processed_length": 69386,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 794.5172413793103,
+      "overlap_percentage": 0.25,
+      "sections_found": 66
+    },
+    "processed_documents/discourse/tds-kb-165687.md": {
+      "original_length": 3096,
+      "processed_length": 2661,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 691.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-170413.md": {
+      "original_length": 4763,
+      "processed_length": 2333,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 625.2,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-173347.md": {
+      "original_length": 9344,
+      "processed_length": 5407,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 719.2,
+      "overlap_percentage": 0.25,
+      "sections_found": 6
+    },
+    "processed_documents/discourse/tds-kb-166866.md": {
+      "original_length": 8834,
+      "processed_length": 4808,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 659.3,
+      "overlap_percentage": 0.25,
+      "sections_found": 14
+    },
+    "processed_documents/discourse/tds-kb-172865.md": {
+      "original_length": 3118,
+      "processed_length": 2540,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 588.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-171428.md": {
+      "original_length": 1375,
+      "processed_length": 690,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 445.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-169807.md": {
+      "original_length": 988,
+      "processed_length": 511,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 355.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-171999.md": {
+      "original_length": 6681,
+      "processed_length": 106,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 106.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-165959.md": {
+      "original_length": 322722,
+      "processed_length": 151761,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 804.272,
+      "overlap_percentage": 0.25,
+      "sections_found": 185
+    },
+    "processed_documents/discourse/tds-kb-171798.md": {
+      "original_length": 4290,
+      "processed_length": 949,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 449.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-168476.md": {
+      "original_length": 14214,
+      "processed_length": 11308,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 754.1,
+      "overlap_percentage": 0.25,
+      "sections_found": 9
+    },
+    "processed_documents/discourse/tds-kb-164462.md": {
+      "original_length": 2260,
+      "processed_length": 554,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 377.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-170147.md": {
+      "original_length": 9551,
+      "processed_length": 7145,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 733.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/discourse/tds-kb-166303.md": {
+      "original_length": 9802,
+      "processed_length": 9116,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 755.75,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-164214.md": {
+      "original_length": 998,
+      "processed_length": 694,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 447.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/discourse/tds-kb-168143.md": {
+      "original_length": 3249,
+      "processed_length": 2677,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 611.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-171515.md": {
+      "original_length": 4385,
+      "processed_length": 4107,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 686.75,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-166189.md": {
+      "original_length": 14969,
+      "processed_length": 5935,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 771.8,
+      "overlap_percentage": 0.25,
+      "sections_found": 11
+    },
+    "processed_documents/discourse/tds-kb-173211.md": {
+      "original_length": 313,
+      "processed_length": 85,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 85.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-166891.md": {
+      "original_length": 878,
+      "processed_length": 133,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 133.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/discourse/tds-kb-165830.md": {
+      "original_length": 559,
+      "processed_length": 385,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 292.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    }
+  },
+  "features": {
+    "has_overlap": true,
+    "has_section_metadata": true,
+    "has_deduplication": true,
+    "has_preprocessing": true
+  }
+}

@@ -1,0 +1,881 @@
+{
+  "total_files": 86,
+  "total_chunks": 778,
+  "successful_embeddings": 778,
+  "failed_embeddings": 0,
+  "chunk_size": 800,
+  "overlap_percentage": 0.25,
+  "embedding_model": "nomic-embed-text:latest",
+  "embedding_dimension": 768,
+  "file_paths": [
+    "processed_documents/tds_course/visualizing-animated-data-with-powerpoint.md",
+    "processed_documents/tds_course/geospatial-analysis-with-python.md",
+    "processed_documents/tds_course/google-charts.md",
+    "processed_documents/tds_course/narratives-with-excel.md",
+    "processed_documents/tds_course/deployment-tools.md",
+    "processed_documents/tds_course/hosting-llms-runpod.md",
+    "processed_documents/tds_course/data-analysis-with-sql.md",
+    "processed_documents/tds_course/data-analysis.md",
+    "processed_documents/tds_course/llm-website-scraping.md",
+    "processed_documents/tds_course/splitting-text-in-excel.md",
+    "processed_documents/tds_course/github-actions.md",
+    "processed_documents/tds_course/live-session-2025-01-28.md",
+    "processed_documents/tds_course/npx.md",
+    "processed_documents/tds_course/rawgraphs.md",
+    "processed_documents/tds_course/network-analysis-in-python.md",
+    "processed_documents/tds_course/llm-text-extraction.md",
+    "processed_documents/tds_course/bash.md",
+    "processed_documents/tds_course/git.md",
+    "processed_documents/tds_course/_sidebar.md",
+    "processed_documents/tds_course/scraping-with-excel.md",
+    "processed_documents/tds_course/css-selectors.md",
+    "processed_documents/tds_course/tds-gpt-reviewer.md",
+    "processed_documents/tds_course/bbc-weather-api-with-python.md",
+    "processed_documents/tds_course/live-session-2025-02-06.md",
+    "processed_documents/tds_course/topic-modeling.md",
+    "processed_documents/tds_course/data-cleansing-in-excel.md",
+    "processed_documents/tds_course/data-preparation-in-the-editor.md",
+    "processed_documents/tds_course/base64-encoding.md",
+    "processed_documents/tds_course/data-analysis-with-duckdb.md",
+    "processed_documents/tds_course/extracting-audio-and-transcripts.md",
+    "processed_documents/tds_course/convert-pdfs-to-markdown.md",
+    "processed_documents/tds_course/live-session-2025-02-07.md",
+    "processed_documents/tds_course/data-aggregation-in-excel.md",
+    "processed_documents/tds_course/fine-tuning-gemini.md",
+    "processed_documents/tds_course/live-session-2025-01-16.md",
+    "processed_documents/tds_course/data-transformation-in-excel.md",
+    "processed_documents/tds_course/live-session-2025-02-01.md",
+    "processed_documents/tds_course/geospatial-analysis-with-excel.md",
+    "processed_documents/tds_course/README.md",
+    "processed_documents/tds_course/outlier-detection-with-excel.md",
+    "processed_documents/tds_course/live-session-2025-01-17.md",
+    "processed_documents/tds_course/visualizing-machine-learning.md",
+    "processed_documents/tds_course/vision-models.md",
+    "processed_documents/tds_course/narratives-with-llms.md",
+    "processed_documents/tds_course/github-pages.md",
+    "processed_documents/tds_course/live-session-2025-01-29.md",
+    "processed_documents/tds_course/llamafile.md",
+    "processed_documents/tds_course/vscode.md",
+    "processed_documents/tds_course/google-data-studio.md",
+    "processed_documents/tds_course/live-session-2025-01-20.md",
+    "processed_documents/tds_course/data-visualization.md",
+    "processed_documents/tds_course/project-2.md",
+    "processed_documents/tds_course/scraping-emarketer.md",
+    "processed_documents/tds_course/data-analysis-with-python.md",
+    "processed_documents/tds_course/regression-with-excel.md",
+    "processed_documents/tds_course/vercel.md",
+    "processed_documents/tds_course/scraping-live-sessions.md",
+    "processed_documents/tds_course/sqlite.md",
+    "processed_documents/tds_course/scheduled-scraping-with-github-actions.md",
+    "processed_documents/tds_course/live-session-2025-01-31.md",
+    "processed_documents/tds_course/llm-sentiment-analysis.md",
+    "processed_documents/tds_course/devtools.md",
+    "processed_documents/tds_course/prompt-engineering.md",
+    "processed_documents/tds_course/data-preparation-in-the-shell.md",
+    "processed_documents/tds_course/narratives-with-comics.md",
+    "processed_documents/tds_course/llm-agents.md",
+    "processed_documents/tds_course/live-session-2025-01-15.md",
+    "processed_documents/tds_course/markdown.md",
+    "processed_documents/tds_course/profiling-data-with-python.md",
+    "processed_documents/tds_course/image-compression.md",
+    "processed_documents/tds_course/cors.md",
+    "processed_documents/tds_course/embeddings.md",
+    "processed_documents/tds_course/fastapi.md",
+    "processed_documents/tds_course/large-language-models.md",
+    "processed_documents/tds_course/vector-databases.md",
+    "processed_documents/tds_course/colab.md",
+    "processed_documents/tds_course/wikipedia-data-with-python.md",
+    "processed_documents/tds_course/visualizing-charts-with-excel.md",
+    "processed_documents/tds_course/visualizing-forecasts-with-excel.md",
+    "processed_documents/tds_course/llm-video-screen-scraping.md",
+    "processed_documents/tds_course/project-1.md",
+    "processed_documents/tds_course/development-tools.md",
+    "processed_documents/tds_course/data-preparation.md",
+    "processed_documents/tds_course/scraping-with-google-sheets.md",
+    "processed_documents/tds_course/live-session-2025-01-23.md",
+    "processed_documents/tds_course/marimo.md"
+  ],
+  "generation_timestamp": 1750229254.3663225,
+  "processing_stats": {
+    "processed_documents/tds_course/visualizing-animated-data-with-powerpoint.md": {
+      "original_length": 1567,
+      "processed_length": 1497,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 523.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/geospatial-analysis-with-python.md": {
+      "original_length": 4745,
+      "processed_length": 4597,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 638.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/google-charts.md": {
+      "original_length": 227,
+      "processed_length": 226,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 213.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/narratives-with-excel.md": {
+      "original_length": 3137,
+      "processed_length": 3052,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 768.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/deployment-tools.md": {
+      "original_length": 163,
+      "processed_length": 162,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 162.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/hosting-llms-runpod.md": {
+      "original_length": 121,
+      "processed_length": 120,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 120.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-analysis-with-sql.md": {
+      "original_length": 3878,
+      "processed_length": 3807,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 799.1666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-analysis.md": {
+      "original_length": 3349,
+      "processed_length": 3220,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 630.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-website-scraping.md": {
+      "original_length": 24,
+      "processed_length": 23,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/splitting-text-in-excel.md": {
+      "original_length": 3059,
+      "processed_length": 2913,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 650.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/github-actions.md": {
+      "original_length": 5034,
+      "processed_length": 4760,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 654.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-28.md": {
+      "original_length": 13821,
+      "processed_length": 13791,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 764.2916666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/npx.md": {
+      "original_length": 2650,
+      "processed_length": 2524,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 586.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/tds_course/rawgraphs.md": {
+      "original_length": 3022,
+      "processed_length": 2967,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 660.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/network-analysis-in-python.md": {
+      "original_length": 5487,
+      "processed_length": 5325,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 767.7777777777778,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-text-extraction.md": {
+      "original_length": 8513,
+      "processed_length": 8104,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 725.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/bash.md": {
+      "original_length": 4278,
+      "processed_length": 3924,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 664.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 12
+    },
+    "processed_documents/tds_course/git.md": {
+      "original_length": 5886,
+      "processed_length": 5594,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 688.7272727272727,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/_sidebar.md": {
+      "original_length": 5703,
+      "processed_length": 5558,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 735.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 0
+    },
+    "processed_documents/tds_course/scraping-with-excel.md": {
+      "original_length": 2664,
+      "processed_length": 2621,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 683.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/css-selectors.md": {
+      "original_length": 3337,
+      "processed_length": 3302,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 641.7142857142857,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/tds-gpt-reviewer.md": {
+      "original_length": 2836,
+      "processed_length": 2809,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 633.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/bbc-weather-api-with-python.md": {
+      "original_length": 9088,
+      "processed_length": 8960,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 745.75,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/live-session-2025-02-06.md": {
+      "original_length": 5060,
+      "processed_length": 4957,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 727.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/topic-modeling.md": {
+      "original_length": 6117,
+      "processed_length": 6031,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 781.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-cleansing-in-excel.md": {
+      "original_length": 4104,
+      "processed_length": 3750,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 642.125,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-preparation-in-the-editor.md": {
+      "original_length": 2928,
+      "processed_length": 2822,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 635.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/base64-encoding.md": {
+      "original_length": 4038,
+      "processed_length": 4001,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 741.5714285714286,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/data-analysis-with-duckdb.md": {
+      "original_length": 5940,
+      "processed_length": 5821,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 709.4545454545455,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/extracting-audio-and-transcripts.md": {
+      "original_length": 10761,
+      "processed_length": 10130,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 720.578947368421,
+      "overlap_percentage": 0.25,
+      "sections_found": 33
+    },
+    "processed_documents/tds_course/convert-pdfs-to-markdown.md": {
+      "original_length": 537,
+      "processed_length": 536,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 368.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-02-07.md": {
+      "original_length": 6348,
+      "processed_length": 6298,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 706.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-aggregation-in-excel.md": {
+      "original_length": 4190,
+      "processed_length": 3840,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 718.5714285714286,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/fine-tuning-gemini.md": {
+      "original_length": 123,
+      "processed_length": 122,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 122.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-16.md": {
+      "original_length": 10800,
+      "processed_length": 10701,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 723.25,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-transformation-in-excel.md": {
+      "original_length": 3722,
+      "processed_length": 3494,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 669.1428571428571,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-02-01.md": {
+      "original_length": 6711,
+      "processed_length": 6673,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 695.9230769230769,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/geospatial-analysis-with-excel.md": {
+      "original_length": 4030,
+      "processed_length": 4007,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 674.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/README.md": {
+      "original_length": 18661,
+      "processed_length": 17183,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 764.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 9
+    },
+    "processed_documents/tds_course/outlier-detection-with-excel.md": {
+      "original_length": 3410,
+      "processed_length": 3347,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 2,
+      "avg_chunk_size": 816.8,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-17.md": {
+      "original_length": 7205,
+      "processed_length": 7158,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 733.4615384615385,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/visualizing-machine-learning.md": {
+      "original_length": 3117,
+      "processed_length": 3057,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 675.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vision-models.md": {
+      "original_length": 6289,
+      "processed_length": 6031,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 684.1666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/tds_course/narratives-with-llms.md": {
+      "original_length": 31,
+      "processed_length": 30,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/github-pages.md": {
+      "original_length": 6965,
+      "processed_length": 6716,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 699.5384615384615,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/live-session-2025-01-29.md": {
+      "original_length": 16157,
+      "processed_length": 16119,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 787.7777777777778,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llamafile.md": {
+      "original_length": 5437,
+      "processed_length": 5322,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 710.6,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vscode.md": {
+      "original_length": 2145,
+      "processed_length": 2144,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 587.8,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/google-data-studio.md": {
+      "original_length": 120,
+      "processed_length": 119,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 119.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-20.md": {
+      "original_length": 11601,
+      "processed_length": 11548,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 765.4,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-visualization.md": {
+      "original_length": 1765,
+      "processed_length": 1575,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 542.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/project-2.md": {
+      "original_length": 3132,
+      "processed_length": 3125,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 616.5714285714286,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/scraping-emarketer.md": {
+      "original_length": 3232,
+      "processed_length": 3146,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 619.4285714285714,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-analysis-with-python.md": {
+      "original_length": 4510,
+      "processed_length": 4441,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 669.7777777777778,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/regression-with-excel.md": {
+      "original_length": 4833,
+      "processed_length": 4621,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 751.125,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vercel.md": {
+      "original_length": 7810,
+      "processed_length": 7181,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 735.0769230769231,
+      "overlap_percentage": 0.25,
+      "sections_found": 3
+    },
+    "processed_documents/tds_course/scraping-live-sessions.md": {
+      "original_length": 11884,
+      "processed_length": 11590,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 740.7142857142857,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/sqlite.md": {
+      "original_length": 6031,
+      "processed_length": 5775,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 705.2727272727273,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/scheduled-scraping-with-github-actions.md": {
+      "original_length": 6029,
+      "processed_length": 5673,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 695.8181818181819,
+      "overlap_percentage": 0.25,
+      "sections_found": 6
+    },
+    "processed_documents/tds_course/live-session-2025-01-31.md": {
+      "original_length": 7488,
+      "processed_length": 7419,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 753.3076923076923,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-sentiment-analysis.md": {
+      "original_length": 9092,
+      "processed_length": 8916,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 743.125,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/devtools.md": {
+      "original_length": 2210,
+      "processed_length": 2163,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 591.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/prompt-engineering.md": {
+      "original_length": 14206,
+      "processed_length": 14041,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 774.6666666666666,
+      "overlap_percentage": 0.25,
+      "sections_found": 13
+    },
+    "processed_documents/tds_course/data-preparation-in-the-shell.md": {
+      "original_length": 3114,
+      "processed_length": 3044,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 672.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/narratives-with-comics.md": {
+      "original_length": 2659,
+      "processed_length": 2532,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 781.5,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-agents.md": {
+      "original_length": 109,
+      "processed_length": 108,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 108.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-15.md": {
+      "original_length": 7353,
+      "processed_length": 7253,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 740.8461538461538,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/markdown.md": {
+      "original_length": 2639,
+      "processed_length": 2548,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 668.2,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    },
+    "processed_documents/tds_course/profiling-data-with-python.md": {
+      "original_length": 4326,
+      "processed_length": 4173,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 765.8571428571429,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/image-compression.md": {
+      "original_length": 4096,
+      "processed_length": 4013,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 743.2857142857143,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/cors.md": {
+      "original_length": 4315,
+      "processed_length": 4252,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 704.875,
+      "overlap_percentage": 0.25,
+      "sections_found": 2
+    },
+    "processed_documents/tds_course/embeddings.md": {
+      "original_length": 5872,
+      "processed_length": 5649,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 693.7272727272727,
+      "overlap_percentage": 0.25,
+      "sections_found": 11
+    },
+    "processed_documents/tds_course/fastapi.md": {
+      "original_length": 2995,
+      "processed_length": 2859,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 641.8333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 8
+    },
+    "processed_documents/tds_course/large-language-models.md": {
+      "original_length": 631,
+      "processed_length": 630,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 415.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/vector-databases.md": {
+      "original_length": 9557,
+      "processed_length": 9061,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 719.5882352941177,
+      "overlap_percentage": 0.25,
+      "sections_found": 26
+    },
+    "processed_documents/tds_course/colab.md": {
+      "original_length": 2689,
+      "processed_length": 2669,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 692.6,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/wikipedia-data-with-python.md": {
+      "original_length": 3230,
+      "processed_length": 3203,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 699.3333333333334,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/visualizing-charts-with-excel.md": {
+      "original_length": 1704,
+      "processed_length": 1664,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 565.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/visualizing-forecasts-with-excel.md": {
+      "original_length": 2259,
+      "processed_length": 2176,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 1,
+      "avg_chunk_size": 693.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/llm-video-screen-scraping.md": {
+      "original_length": 6207,
+      "processed_length": 6075,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 732.3636363636364,
+      "overlap_percentage": 0.25,
+      "sections_found": 5
+    },
+    "processed_documents/tds_course/project-1.md": {
+      "original_length": 10510,
+      "processed_length": 10491,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 740.1578947368421,
+      "overlap_percentage": 0.25,
+      "sections_found": 7
+    },
+    "processed_documents/tds_course/development-tools.md": {
+      "original_length": 587,
+      "processed_length": 586,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 393.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/data-preparation.md": {
+      "original_length": 3512,
+      "processed_length": 3447,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 662.7142857142857,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/scraping-with-google-sheets.md": {
+      "original_length": 4183,
+      "processed_length": 4018,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 676.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/live-session-2025-01-23.md": {
+      "original_length": 5603,
+      "processed_length": 5510,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 681.0,
+      "overlap_percentage": 0.25,
+      "sections_found": 1
+    },
+    "processed_documents/tds_course/marimo.md": {
+      "original_length": 3909,
+      "processed_length": 3824,
+      "removed_duplicates": 0,
+      "removed_short_chunks": 0,
+      "avg_chunk_size": 651.375,
+      "overlap_percentage": 0.25,
+      "sections_found": 4
+    }
+  },
+  "features": {
+    "has_overlap": true,
+    "has_section_metadata": true,
+    "has_deduplication": true,
+    "has_preprocessing": true
+  }
+}
